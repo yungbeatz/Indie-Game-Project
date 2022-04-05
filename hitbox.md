@@ -3,8 +3,10 @@ Our task was to code a game. We decided to make an indie jump and run game.  We 
 
 ## Goals
 ➜  We can explain what a hitbox is
+
 ➜  We can explain what a box collider is
-➜  We can explain what a circle collider i
+
+➜  We can explain what a circle collider 
 
 ## Firstly what even is a hitbox?
 HitBoxes are a set of 2D shapes that a game uses to register real-time collisions. For example, HitBoxes register if you've hit an enemy or to make sure the Player cannot walk through Walls or fall through the map.
