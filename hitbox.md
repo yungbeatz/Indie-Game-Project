@@ -10,13 +10,16 @@ Our task was to code a game. We decided to make an indie jump and run game.  We 
 
 ## Firstly what even is a hitbox?
 HitBoxes are a set of 2D shapes that a game uses to register real-time collisions. For example, HitBoxes register if you've hit an enemy or to make sure the Player cannot walk through Walls or fall through the map.
+
  ![](https://external-preview.redd.it/GnQgwlEMXf0NtXEpEsmEKCCGlwOuxP6ki2TCqxIbyNw.jpg?auto=webp&s=b8649e6f55f72c7fdad42500a496e585c3c3bfb0)
 
 *(If the image is too small, click on it to see a resized version of it.)*
   
 ## How did we use them in our game?
  So that we know now what a HitBox is, in Unity there are 2 different components you can use to create HitBoxes for your objects:
+ 
  1.) **Box Collider 2D**
+ 
  1.) **Circle Collider 2D**
  
  ### Box Collider 2D
@@ -96,15 +99,22 @@ public class PlayerLife : MonoBehaviour
     }
 }
 ```
+
 Here we told the Code to check the tag of the object the player just collided with and if the tag is "Trap", the code runs the `Die();` function. The `Die();` function changes the animation of the player to the death animation and afterwards runs the `RestartLevel();` function, this function makes sure to reload the current scene, in short words it restarts the level.
+
  **Preview:**
  ![](https://cdn.discordapp.com/attachments/838181823972507679/960883316788187156/ezgif-5-81e27b993e.gif)
 
-Reflexion:
+**Reflexion**
+
 The project went quite well, we made a game that is playable and looks good, even though it may not have a lot of different features yet. We worked as a team, but we overestimated the amount that we could do. We ended up with lots of uncompleted tasks that we had to forfeit. The next time we work in a team, we will spread the tasks more evenly and plan our time strategically. 
-Verification
+
+**Verification**
+
 ➜  We can explain what a hitbox is ✅
+
 ➜  We can explain what a box collider is ✅
+
 ➜  We can explain what a circle collider is ✅
 
 
